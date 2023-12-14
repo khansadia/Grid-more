@@ -113,22 +113,23 @@ footer{
     padding: 1em;
  }
  ul#features li p {
-    color: #4C4C4C;
+    color: #0836c0;
  }
  /* ab agr ksi ak column ya row ko specific style deni hoto hm ye propert use krn gy */
  ul#features li :nth-child(1){
     background-color: #E6E6E6;
  }
  ul#features li :nth-child(2){
-    background-color: #f383f3;
+    background-color: #c8a8a8;
     align-self: center;
  }
  ul#features li :nth-child(3){
-    background-color: #CACACA;
+    background-color: #84880b;
+    align-self: baseline;
  }
  ul#features li :nth-child(4){
-    background-color: #E6E6E6;
-    align-self: center;
+    background-color: #7a0b0b;
+    align-self: stretch;
  }
  ul#features li :nth-child(5){
     background-color: #D3D3D3;
@@ -136,16 +137,17 @@ footer{
 section#info{
     background-color: #f2f2f2;
     padding: 2em;
-    grid-area: invention;
+    grid-area: inventions;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     align-items: space-aroun;
 }
 
 #mountain-vector{
-    width: 100px;
-    height: 50px;
+    width: 2px;
+    height: 2px;
     align-self:center;
+    
 }
 
 
