@@ -56,7 +56,8 @@ section#hero{
 
 }
 img{
-    max-width: 80%;
+
+    max-width: 40%;
     background-size: cover;
 
     margin: 0 auto;
@@ -69,7 +70,7 @@ img{
 }
 .sidebar{
     grid-area: sidebar;
-    background-color: #1c9090;
+    background-color: #bf5797;
     color:#fff;
     padding: 1em;
 
@@ -97,7 +98,7 @@ footer{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
      Short hand property of gap like above properties is (grid-gap: 10px 30px) */
-    text-align: center;
+    text-align: justify;
     grid-area: features;
 /* align-item: end;   ye items ko start or end mn ly jata hy*/
     }
@@ -109,11 +110,13 @@ footer{
     margin:0; padding: 0;
  }
  ul#features li {
-    background-color: lightgray;
+    background-color: rgba(22, 244, 59, 0.469);
     padding: 1em;
+    
  }
  ul#features li p {
     color: #0836c0;
+    
  }
  /* ab agr ksi ak column ya row ko specific style deni hoto hm ye propert use krn gy */
  ul#features li :nth-child(1){
@@ -135,17 +138,17 @@ footer{
     background-color: #D3D3D3;
  }
 section#info{
-    background-color: #f2f2f2;
+    background-color: #82b7e0;
     padding: 2em;
     grid-area: inventions;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    align-items: space-aroun;
+    align-items: space-around;
 }
 
-#mountain-vector{
-    width: 2px;
-    height: 2px;
+#Mountain-vector{
+    width: 60%;
+    height: 90%;
     align-self:center;
     
 }
